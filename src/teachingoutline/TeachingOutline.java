@@ -133,6 +133,15 @@ public class TeachingOutline {
             where an array would be useful is for storing the scores from all 
             quarters of a game.
         
+            i.e. Q1 - 30, Q2 - 50, Q3 - 70, Q4 - 100
+                 Would be written as:
+                 
+                 int[] scores = new int[4];
+                 scores[0] = 30;
+                 scores[1] = 50;
+                 scores[2] = 70;
+                 scores[3] = 100;
+        
             For now, we will only use homogeneous arrays, or arrays that only 
             contain one data type (such as an array of ints).
         
